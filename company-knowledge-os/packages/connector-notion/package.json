@@ -16,7 +16,7 @@
     "@company-knowledge-os/core": "workspace:*",
     "@company-knowledge-os/database": "workspace:*",
     "@scalekit-sdk/node": "^2.6.3",
-    "axios": "^1.6.0"
+    "axios": "^1.20.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
