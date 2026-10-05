@@ -49,8 +49,8 @@ importers:
         specifier: workspace:*
         version: link:../core
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -80,8 +80,8 @@ importers:
         specifier: workspace:*
         version: link:../database
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
       googleapis:
         specifier: ^134.0.0
         version: 134.0.0
@@ -117,8 +117,8 @@ importers:
         specifier: ^2.6.3
         version: 2.6.3
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -236,8 +236,8 @@ importers:
         specifier: workspace:*
         version: link:../core
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -305,8 +305,8 @@ importers:
         specifier: workspace:*
         version: link:../core
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -339,8 +339,8 @@ importers:
         specifier: ^2.6.3
         version: 2.6.3
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -405,8 +405,8 @@ importers:
         specifier: workspace:*
         version: link:../core
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -439,8 +439,8 @@ importers:
         specifier: ^2.6.3
         version: 2.6.3
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
       openai:
         specifier: ^4.20.0
         version: 4.104.0
@@ -470,8 +470,8 @@ importers:
         specifier: workspace:*
         version: link:../core
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -501,8 +501,8 @@ importers:
         specifier: workspace:*
         version: link:../core
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -532,8 +532,8 @@ importers:
         specifier: workspace:*
         version: link:../core
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -563,8 +563,8 @@ importers:
         specifier: workspace:*
         version: link:../core
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
       form-data:
         specifier: ^4.0.0
         version: 4.0.6
@@ -597,8 +597,8 @@ importers:
         specifier: workspace:*
         version: link:../core
       axios:
-        specifier: ^1.6.0
-        version: 1.18.0
+        specifier: ^1.20.0
+        version: 1.20.0
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
@@ -1406,6 +1406,9 @@ packages:
   axios@1.18.0:
     resolution: {integrity: sha512-E32NzpYKp++W7XRe52rHiXV2ehxmh3wbdgO7MHeFM+vqxLBYHzt0ElkiImtOBxtOmyp0yoC8C6uESVV84Y2/hw==}
 
+  axios@1.20.0:
+    resolution: {integrity: sha512-r8aOh8j9cGKpgQAqpzrUHnSIc6a59Y3Xf/cv8sy1DrHCkZHzQGEuoq1tARk6qSyDdtQGSDgpb9kFlruzPvrgwg==}
+
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
@@ -1498,6 +1501,7 @@ packages:
   cron-parser@4.9.0:
     resolution: {integrity: sha512-p0SaNjrHOnQeR8/VnfGbmg9te2kfyYSQ7Sc/j/6DtPL3JQvKxmjO9TSjNFpujqV3vEYYBvNNvXSxzyksBWAx1Q==}
     engines: {node: '>=12.0.0'}
+    deprecated: v4 is no longer maintained, upgrade to v5
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -1680,8 +1684,8 @@ packages:
   flatted@3.4.2:
     resolution: {integrity: sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==}
 
-  follow-redirects@1.16.0:
-    resolution: {integrity: sha512-y5rN/uOsadFT/JfYwhxRS5R7Qce+g3zG97+JrtFZlC9klX/W5hD7iiLzScI4nZqUS7DNUdhPgw4xI8W2LuXlUw==}
+  follow-redirects@1.16.1:
+    resolution: {integrity: sha512-FNvFGzoMLWmE6Yj9spb/zjd7yiNCHiAW9/Tg9CXrQ8wuu32HtlJOwWO11OJafl5FfY3DxTdQ0vj42zU1kvv5jg==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -2998,7 +3002,17 @@ snapshots:
 
   axios@1.18.0:
     dependencies:
-      follow-redirects: 1.16.0
+      follow-redirects: 1.16.1
+      form-data: 4.0.6
+      https-proxy-agent: 5.0.1
+      proxy-from-env: 2.1.0
+    transitivePeerDependencies:
+      - debug
+      - supports-color
+
+  axios@1.20.0:
+    dependencies:
+      follow-redirects: 1.16.1
       form-data: 4.0.6
       https-proxy-agent: 5.0.1
       proxy-from-env: 2.1.0
@@ -3342,7 +3356,7 @@ snapshots:
 
   flatted@3.4.2: {}
 
-  follow-redirects@1.16.0: {}
+  follow-redirects@1.16.1: {}
 
   form-data-encoder@1.7.2: {}
 

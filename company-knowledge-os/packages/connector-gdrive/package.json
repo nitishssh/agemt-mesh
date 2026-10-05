@@ -15,7 +15,7 @@
   "dependencies": {
     "@company-knowledge-os/core": "workspace:*",
     "@company-knowledge-os/database": "workspace:*",
-    "axios": "^1.6.0",
+    "axios": "^1.20.0",
     "googleapis": "^134.0.0"
   },
   "devDependencies": {
